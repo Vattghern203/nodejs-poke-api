@@ -1,0 +1,31 @@
+{
+  "name": "projeto-poke-api",
+  "version": "1.0.0",
+  "description": "aplicacao desenvolvida com poke api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./Api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cleiton-Aparecido/nodejs-poke-api.git"
+  },
+  "author": "cleiton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cleiton-Aparecido/nodejs-poke-api/issues"
+  },
+  "homepage": "https://github.com/Cleiton-Aparecido/nodejs-poke-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "sequelize": "^6.27.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
